@@ -1,6 +1,15 @@
 ## Giornale
 
+Lavoro di Audoly 3D’( [Misra Audoly et al (2016) Shape Transformations of Epithelial Shells](./0430/BIOPHY~1.PDF) ), perché aggiungono il termine:
+$$
+E_{b e n d}=\beta \sum\left(\left(1-\mathbf{N}_{S 2\left(j^{\prime}\right)} \cdot \mathbf{N}_{S 1\left(j^{\prime}\right)}\right)-k_{j^{\prime}}\left(-\left(\mathbf{N}_{S 2\left(j^{\prime}\right)}-\mathbf{N}_{S 1\left(j^{\prime}\right)}\right) \cdot \mathbf{u}_{j^{\prime}}\right)\right.
+$$
 
+ [1-s2.0-S0006349517305192-main.pdf](Biblio RP\1-s2.0-S0006349517305192-main.pdf)  
+
+[RAZ_Krajnc_Matej_i2017.pdf](Biblio RP\RAZ_Krajnc_Matej_i2017.pdf) 
+
+[https://sci-hub.tw/https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.052713](https://sci-hub.tw/https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.052713)
 
 ## 7 maggio
 
@@ -19,10 +28,11 @@
 
 
 - [ ] ~~Rifare i calcoli nella sezione Supplementary~~
-
 - [ ] ~~Domanda: c'è qualcosa che Audoly non ha fatto e che noi potremmo fare?~~
 
+ [Misra Audoly et al (2016) Shape Transformations of Epithelial Shells](./0430/BIOPHY~1.PDF) 
 
+ [Misra Audoly et al (2016) Shape Transformations of Epithelial Shells Supplementary materials](0430\98146c6dbe45a96ae6b01dcaa5765a14f95e.pdf) 
 
 ## 23 aprile
 
@@ -476,15 +486,26 @@ The main experimental observation reported in the paper is that
 
 ![Annotation 2020-04-23 151120](index.assets/Annotation 2020-04-23 151120.png)
 
-![Annotation 2020-04-23 151120](index.assets/Annotation 2020-04-23 151120-1587652565066.png)
+![Annotation 2020-04-23 151120](index.assets/Annotation 2020-04-23 151120-1587652565066.png) -  [Supplementary material on the 3d vertex model](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-0891-2/MediaObjects/41586_2019_891_MOESM1_ESM.pdf)
 
-### [Supplementary material on the 3d vertex model](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-0891-2/MediaObjects/41586_2019_891_MOESM1_ESM.pdf)
+## [Murisic, Hakim, Audoly (2015)](http://www.lps.ens.fr/~hakim/15biophysj.pdf), where homogenization is discussed in a purely 2D context.
+
+$$
+\mathcal{E}_{\mathrm{vm}}=\frac{1}{2} \sum_{f}\left(A_{f}-1\right)^{2}+G \sum_{e} L_{e}+\frac{H}{2} \sum_{f} P_{f}^{2}+B \sum_{e^{\prime}}\left(1-\mathbf{N}_{f_{1}\left(e^{\prime}\right)} \cdot \mathbf{N}_{f_{2}\left(e^{\prime}\right)}\right)
+$$
 
 
-### [Murisic, Hakim, Audoly (2015)](http://www.lps.ens.fr/~hakim/15biophysj.pdf), where homogenization is discussed in a purely 2D context.
 
 
-### Bielmeier: Interface Contractility between differently fated cells drives cell elimination and cyst formation.
+
+
+
+
+
+
+
+## Bielmeier: Interface Contractility between differently fated cells drives cell elimination and cyst formation.
+
 [Bielmeier et al 2016. ](https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/BiologicalPhysics/juelicher/publications/2016/ICbDFCDCEaCF2016.pdf)
 
 ![Annotation 2020-05-07 153939](index.assets/Annotation 2020-05-07 153939.png)
@@ -495,13 +516,13 @@ This is the original paper where the 3D vertex model is discussed. There is also
 
 
 
-### Mechanics of active surfaces (Salbreux)
+## Mechanics of active surfaces (Salbreux)
 
 [salbreux2017.pdf](Biblio_GT\salbreux2017.pdf) 
 
 
 
-### [Shape Transformations of Epithelial Shells](https://www.sciencedirect.com/science/article/pii/S0006349516300583)
+## [Shape Transformations of Epithelial Shells](https://www.sciencedirect.com/science/article/pii/S0006349516300583)
 
 [MahimMisra](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!) [BasileAudoly](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!) [Ioannis G.Kevrekidis](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!) [Stanislav Y.Shvartsman](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!)
 
