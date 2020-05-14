@@ -5,11 +5,13 @@ $$
 E_{b e n d}=\beta \sum\left(\left(1-\mathbf{N}_{S 2\left(j^{\prime}\right)} \cdot \mathbf{N}_{S 1\left(j^{\prime}\right)}\right)-k_{j^{\prime}}\left(-\left(\mathbf{N}_{S 2\left(j^{\prime}\right)}-\mathbf{N}_{S 1\left(j^{\prime}\right)}\right) \cdot \mathbf{u}_{j^{\prime}}\right)\right.
 $$
 
- [1-s2.0-S0006349517305192-main.pdf](Biblio RP\1-s2.0-S0006349517305192-main.pdf)  
+ [Wen et al (2017) Epithelial Folding Driven by Apical or Basal-Lateral
+Modulation: Geometric Features, Mechanical
+Inference, and Boundary Effects](Biblio RP\1-s2.0-S0006349517305192-main.pdf)  
 
-[RAZ_Krajnc_Matej_i2017.pdf](Biblio RP\RAZ_Krajnc_Matej_i2017.pdf) 
+[RAZ_Krajnc_Matej_i2017.pdf](0514\RAZ_Krajnc_Matej_i2017.pdf) 
 
-[https://sci-hub.tw/https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.052713](https://sci-hub.tw/https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.052713)
+[Krajnc et al (2015) Theory of epithelial elasticity](https://sci-hub.tw/https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.052713)
 
 ## 7 maggio
 
@@ -522,7 +524,7 @@ This is the original paper where the 3D vertex model is discussed. There is also
 
 
 
-## [Shape Transformations of Epithelial Shells](https://www.sciencedirect.com/science/article/pii/S0006349516300583)
+## [Misra et al (2016). Shape Transformations of Epithelial Shells](https://www.sciencedirect.com/science/article/pii/S0006349516300583)
 
 [MahimMisra](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!) [BasileAudoly](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!) [Ioannis G.Kevrekidis](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!) [Stanislav Y.Shvartsman](https://www.sciencedirect.com/science/article/pii/S0006349516300583#!)
 
