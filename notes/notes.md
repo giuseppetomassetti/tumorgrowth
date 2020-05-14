@@ -60,3 +60,7 @@ where $T_k$ is now the surface tension.
 
 [^1]: [R. A. Weinberg: “The Biology of Cancer, 2nd ed.”, Garland Science, New York and London, 2014](notes.assets/Weinberg_2013.pdf)
 
+
+
+
+
