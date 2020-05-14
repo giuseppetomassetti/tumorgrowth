@@ -117,6 +117,10 @@ Idea: formulare teoria di piastra bifasica con due popolazioni cellulari tra lor
 
 
 
+# Note
+
+[Notes](notes/notes.html)
+
 
 
 # Informazioni di carattere generale
