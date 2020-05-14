@@ -11,6 +11,7 @@
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
+  <link rel="stylesheet" href="github.css" />
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
@@ -45,42 +46,10 @@ E_{b e n d}=\beta \sum\left(\left(1-\mathbf{N}_{S 2\left(j^{\prime}\right)} \cdo
 <p>Bielmeier et al. write, for the energy: <span class="math display">\[
 W=\underbrace{\sum_{\alpha}-P_{\alpha} V_{\alpha}+\sum_{k} T_{k} A_{k}+\sum_{i j} \Lambda_{i j} l_{i j}}_{W_{i}}
 \]</span> where <span class="math inline">\(T_k\)</span> is now the surface tension.</p>
-<h1 id="epithelial-cancers-1">Epithelial cancers</h1>
-<p>Epithelia are <strong>sheets of cells</strong> that line the walls of cavities and channels or, in the case of skin, serve as the outside covering of the body. Beneath the epithelial cell layers in each of these tissues lies a <em>basement membrane</em>, which separates the epithelial cells from the underlying layer of supporting connective tissue cells, termed the <em>stroma</em>. <strong>The majority of human tumors arise from <em>epithelial tissues</em></strong>. Epithelial cancers spawn the most common human cancers—the <em>carcinomas</em>. These tumors are responsible for more than 80% of the cancer-related deaths in the Western world. ( <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, section 2.2).</p>
-<p>The invasion by carcinoma cells into the stroma is a consequence of several concurrent mechanisms. At the borders of many carcinomas, epithelial cancer cells often change gene expression programs and <em>take on attributes of the nearby stromal cells</em> of mesenchymal origin.</p>
-<p>However, some research suggests that <em>alterations in the mechanical behavior of cancer cells</em> have an important role in tumorigenesis. For example, <a href="https://doi.org/10.1038/s41586-019-0891-2">Sailbreaux et al. (2019)</a> argue observe that in in pancreatic tubular epithelia of mice the diameter of the source epithelium instructs the morphology of growing tumors, and provide an explanation based on a mechanical model whereby <em>spontaneous bending</em> of the epithelial tissue takes place due to the interplay of cytoskeletal changes in transformed cells and the existing tubular geometry. This is exemplified in the following figure, which shows images of tumors bulging out for a small radius and bulging out for a large radius.</p>
-<p><img src="notes.assets/Annotation 2020-05-14 121409.png" style="height:200px" class="center"/></p>
-<h1 id="the-vertex-model-1">The vertex model</h1>
-<p>A popular model for the mechanical behavior of epithelial tissues is the so-called “vertex model”, introduced in by <a href="https://scholar.google.com/scholar?cluster=4196662009164092687&amp;hl=en&amp;as_sdt=0,5">Nagai &amp; Honda in 2001</a>. This model describes the evolution of a two-dimensional polygonal pattern through a gradient-flow model with an energy due to the interfacial tension on cell boundaries. The original formula by Nagai &amp; Honda reads: <span class="math display">\[
-U_{1}=\sum_{\langle i j\rangle} \sigma_{\alpha \beta}\left|\mathbf{r}_{i}-\mathbf{r}_{j}\right|.
-\]</span></p>
-<p>where <span class="math inline">\(\sigma_{\alpha \beta}\)</span> denotes the boundary energy per unit length between cells <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta,\)</span> and vertices <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span> are at the ends of the boundary line. The sum is taken over all the boundaries <span class="math inline">\(\langle i j\rangle .\)</span> The boundary energy per unit length can depend on the type (or the state) of cells <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta .\)</span></p>
-<p>This model has been further extended to take into account <a href="">cortical tension</a>, and the compressibility of the cytoskeleton by an expression that includes <em>quadratic terms</em>. For example, the paper by <a href="http://dx.doi.org/10.1093/imammb/dqx008">Bargmann et al.</a> write <span class="math display">\[
-U\left(\left\{\mathbf{R}_{\alpha}^{i}\right\} ; \Gamma, \Lambda\right)=\sum_{\alpha=1}^{N_{c}}\left\{\frac{1}{2}\left(A_{\alpha}-1\right)^{2}+\frac{1}{2} \Gamma\left(L_{\alpha}-L_{0}\right)^{2}-U_{0}\right\}.
-\]</span></p>
-<h1 id="plate-models-1">Plate models</h1>
-<p>The vertex model has been developed with the main focus on the behavior of flat epithelial tissues. To describe shape transformations associated to stroma invasion, such as bending deformations, several plate models have been developed, which consider a epithelial tissue as a two-dimensional polygonal pattern but allows the vertices to move out of plane, penalizing energetically bending deformations.</p>
-<p><a href="http://www.lps.ens.fr/~hakim/15biophysj.pdf">Murisic et al. (2015)</a> introduce the following expression for the bending energy <span class="math display">\[
-E_{\rm bend}=B \sum_{e^{\prime}}\left(1-\mathbf{N}_{f_{1}\left(e^{\prime}\right)} \cdot \mathbf{N}_{f_{2}\left(e^{\prime}\right)}\right)
-\]</span> where the index <span class="math inline">\(e^{\prime}\)</span> runs over interior edges, i.e., edges belonging to two adjacent faces <span class="math inline">\(f_{1}\left(e^{\prime}\right)\)</span> and $f_{2}(e^{}) $, and <span class="math inline">\(\mathbf N_f\)</span> denotes the unit normal to face <span class="math inline">\(f\)</span>.</p>
-<p><img src="notes.assets/Annotation 2020-05-14 115723.png" style="height:200px" class="center"/></p>
-<p><a href="/notes.assets/misra2016.pdf">Misra et. al (2016)</a>, write <span class="math display">\[
-E_{b e n d}=\beta \sum\left(\left(1-\mathbf{N}_{S 2\left(j^{\prime}\right)} \cdot \mathbf{N}_{S 1\left(j^{\prime}\right)}\right)-k_{j^{\prime}}\left(-\left(\mathbf{N}_{S 2\left(j^{\prime}\right)}-\mathbf{N}_{S 1\left(j^{\prime}\right)}\right) \cdot \mathbf{u}_{j^{\prime}}\right)\right.
-\]</span> where the sum is over all interior edges <span class="math inline">\(j^{\prime},\)</span> i.e., edges shared by two adjacent cells <span class="math inline">\(s 1\left(j^{\prime}\right)\)</span> and <span class="math inline">\(s 2\left(j^{\prime}\right) .\)</span> This term represents the bending energy term, where <span class="math inline">\(\beta\)</span> is the bending elasticity coefficient and <span class="math inline">\(k_{j^{\prime}}\)</span> represents the local natural curvature of the shell ( <span class="math inline">\(k_{j^{\prime}}\)</span> is roughly the rest value of the dihedral angle between the faces adjacent to edge <span class="math inline">\(j^{\prime}\)</span>. In this formula, S2.1 for details). Here <span class="math inline">\(N_{s}\)</span> denotes the outward unit normal to a cell <span class="math inline">\(s\)</span> (i.e., the normal vector of each cell points toward the outside of the closed shell). The value <span class="math inline">\(\boldsymbol{u}_{j^{\prime}}\)</span> is the unit vector joining the cell centers, <span class="math display">\[
-\boldsymbol{u}_{j^{\prime}}=\frac{\boldsymbol{C}_{s 2\left(j^{\prime}\right)}-\boldsymbol{C}_{s 1\left(j^{\prime}\right)}}{\left|\boldsymbol{C}_{s 2\left(j^{\prime}\right)}-\boldsymbol{C}_{s 1\left(j^{\prime}\right)}\right|}
-\]</span> where <span class="math inline">\(C_{32\left(j^{\prime}\right)}\)</span> and <span class="math inline">\(C_{s 1\left(j^{\prime}\right)}\)</span> are cell centers, defined as the mean position of the nodes belonging to the cells <span class="math inline">\(s 1\)</span> and <span class="math inline">\(s 2\)</span>, respectively.</p>
-<h1 id="the-3d-vertex-model-1">The 3D vertex model</h1>
-<p>The 3D vertex model is a nonplanar graph where vertices are arranged on the apical and on the basal surface.</p>
-<p><img src="notes.assets/Annotation 2020-05-14 122936.png" style="height:200px" class="center"/></p>
-<p>This model was introduced in <a href="https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/BiologicalPhysics/juelicher/publications/2016/ICbDFCDCEaCF2016.pdf">Bielmeier et al 2016.</a> to model cyst formation in relate spontaneous bending to the <strong>imbalance</strong> between apical and basal cortical tension. <img src="notes.assets/Annotation 2020-05-14 122936b.png" style="height:200px" class="center"/></p>
-<p>Bielmeier et al. write, for the energy: <span class="math display">\[
-W=\underbrace{\sum_{\alpha}-P_{\alpha} V_{\alpha}+\sum_{k} T_{k} A_{k}+\sum_{i j} \Lambda_{i j} l_{i j}}_{W_{i}}
-\]</span> where <span class="math inline">\(T_k\)</span> is now the surface tension.</p>
 <section class="footnotes">
 <hr />
 <ol>
 <li id="fn1"><p><a href="notes.assets/Weinberg_2013.pdf">R. A. Weinberg: “The Biology of Cancer, 2nd ed.”, Garland Science, New York and London, 2014</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p><a href="notes.assets/Weinberg_2013.pdf">R. A. Weinberg: “The Biology of Cancer, 2nd ed.”, Garland Science, New York and London, 2014</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
 </body>
