@@ -1,5 +1,19 @@
 ## Giornale
 
+# 28 maggio
+
+
+
+ [Podio-Guidugli1982_Article_FlexuralInstabilitiesOfElastic.pdf](0528\Podio-Guidugli1982_Article_FlexuralInstabilitiesOfElastic.pdf) 
+
+ [conti_travetta_0528.pdf](0528\conti_travetta_0528.pdf) 
+
+ [Antman_2d_rod.pdf](0528\Antman_2d_rod.pdf) 
+
+---
+
+
+
 Lavoro di Audoly 3D’( [Misra Audoly et al (2016) Shape Transformations of Epithelial Shells](./0430/BIOPHY~1.PDF) ), perché aggiungono il termine:
 $$
 E_{b e n d}=\beta \sum\left(\left(1-\mathbf{N}_{S 2\left(j^{\prime}\right)} \cdot \mathbf{N}_{S 1\left(j^{\prime}\right)}\right)-k_{j^{\prime}}\left(-\left(\mathbf{N}_{S 2\left(j^{\prime}\right)}-\mathbf{N}_{S 1\left(j^{\prime}\right)}\right) \cdot \mathbf{u}_{j^{\prime}}\right)\right.
